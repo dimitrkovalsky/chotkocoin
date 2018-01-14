@@ -1,0 +1,9 @@
+Building Chotkocoin
+
+See doc/readme-qt.rst for instructions on building Chotkocoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Chotkocoin.
+
+See doc/build-*.txt for instructions on building chotkocoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Chotkocoin.

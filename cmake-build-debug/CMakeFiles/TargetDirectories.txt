@@ -1,0 +1,3 @@
+/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles/chotkocoin_0_8_7_5.dir
