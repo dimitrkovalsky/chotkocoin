@@ -1,2 +1,2 @@
-# Empty dependencies file for chotkocoin_0_8_7_5.
+# Empty dependencies file for chotkocoin.
 # This may be replaced when dependencies are built.

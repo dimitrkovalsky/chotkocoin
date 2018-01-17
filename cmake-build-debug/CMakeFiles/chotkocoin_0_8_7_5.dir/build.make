@@ -43,10 +43,10 @@ RM = /opt/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/chotkocoin-0.8.7.5
+CMAKE_SOURCE_DIR = /opt/chotkocoin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opt/chotkocoin-0.8.7.5/cmake-build-debug
+CMAKE_BINARY_DIR = /opt/chotkocoin/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/chotkocoin_0_8_7_5.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o: ../src/json/json_spirit_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o -c /opt/chotkocoin-0.8.7.5/src/json/json_spirit_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o -c /opt/chotkocoin/src/json/json_spirit_reader.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/json/json_spirit_reader.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/json/json_spirit_reader.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/json/json_spirit_reader.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/json/json_spirit_reader.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_reader.cpp.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o: ../src/json/json_spirit_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o -c /opt/chotkocoin-0.8.7.5/src/json/json_spirit_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o -c /opt/chotkocoin/src/json/json_spirit_value.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/json/json_spirit_value.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/json/json_spirit_value.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/json/json_spirit_value.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/json/json_spirit_value.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_value.cpp.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o: ../src/json/json_spirit_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o -c /opt/chotkocoin-0.8.7.5/src/json/json_spirit_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o -c /opt/chotkocoin/src/json/json_spirit_writer.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/json/json_spirit_writer.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/json/json_spirit_writer.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/json/json_spirit_writer.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/json/json_spirit_writer.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/json/json_spirit_writer.cpp.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o: ../src/leveldb/db/autocompact_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/autocompact_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o -c /opt/chotkocoin/src/leveldb/db/autocompact_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/autocompact_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/autocompact_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/autocompact_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/autocompact_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/autocompact_test.cc.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o: ../src/leveldb/db/builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o -c /opt/chotkocoin/src/leveldb/db/builder.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/builder.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/builder.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/builder.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/builder.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/builder.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o: ../src/leveldb/db/c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o -c /opt/chotkocoin/src/leveldb/db/c.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/c.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/c.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/c.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/c.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c.cc.o.provides.build: CMakeFil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o: ../src/leveldb/db/c_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o   -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/c_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o   -c /opt/chotkocoin/src/leveldb/db/c_test.c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/c_test.c > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /opt/chotkocoin/src/leveldb/db/c_test.c > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/c_test.c -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /opt/chotkocoin/src/leveldb/db/c_test.c -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/c_test.c.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o: ../src/leveldb/db/corruption_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/corruption_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o -c /opt/chotkocoin/src/leveldb/db/corruption_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/corruption_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/corruption_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/corruption_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/corruption_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/corruption_test.cc.o.provides.b
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o: ../src/leveldb/db/db_bench.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_bench.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o -c /opt/chotkocoin/src/leveldb/db/db_bench.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_bench.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/db_bench.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_bench.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/db_bench.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_bench.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o: ../src/leveldb/db/db_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o -c /opt/chotkocoin/src/leveldb/db/db_impl.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_impl.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/db_impl.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_impl.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/db_impl.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_impl.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o: ../src/leveldb/db/db_iter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_iter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o -c /opt/chotkocoin/src/leveldb/db/db_iter.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_iter.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/db_iter.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_iter.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/db_iter.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_iter.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o: ../src/leveldb/db/db_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o -c /opt/chotkocoin/src/leveldb/db/db_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/db_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/db_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/db_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/db_test.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o: ../src/leveldb/db/dbformat.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/dbformat.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o -c /opt/chotkocoin/src/leveldb/db/dbformat.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/dbformat.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/dbformat.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/dbformat.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/dbformat.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o: ../src/leveldb/db/dbformat_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/dbformat_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o -c /opt/chotkocoin/src/leveldb/db/dbformat_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/dbformat_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/dbformat_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/dbformat_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/dbformat_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/dbformat_test.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o: ../src/leveldb/db/filename.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/filename.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o -c /opt/chotkocoin/src/leveldb/db/filename.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/filename.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/filename.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/filename.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/filename.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o: ../src/leveldb/db/filename_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/filename_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o -c /opt/chotkocoin/src/leveldb/db/filename_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/filename_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/filename_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/filename_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/filename_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/filename_test.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o: ../src/leveldb/db/leveldb_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/leveldb_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o -c /opt/chotkocoin/src/leveldb/db/leveldb_main.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/leveldb_main.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/leveldb_main.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/leveldb_main.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/leveldb_main.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/leveldb_main.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o: ../src/leveldb/db/log_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o -c /opt/chotkocoin/src/leveldb/db/log_reader.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_reader.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/log_reader.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_reader.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/log_reader.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_reader.cc.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o: ../src/leveldb/db/log_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o -c /opt/chotkocoin/src/leveldb/db/log_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/log_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/log_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_test.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o: ../src/leveldb/db/log_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o -c /opt/chotkocoin/src/leveldb/db/log_writer.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_writer.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/log_writer.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/log_writer.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/log_writer.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/log_writer.cc.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o: ../src/leveldb/db/memtable.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/memtable.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o -c /opt/chotkocoin/src/leveldb/db/memtable.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/memtable.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/memtable.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/memtable.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/memtable.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/memtable.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o: ../src/leveldb/db/repair.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/repair.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o -c /opt/chotkocoin/src/leveldb/db/repair.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/repair.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/repair.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/repair.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/repair.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/repair.cc.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o: ../src/leveldb/db/skiplist_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/skiplist_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o -c /opt/chotkocoin/src/leveldb/db/skiplist_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/skiplist_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/skiplist_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/skiplist_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/skiplist_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/skiplist_test.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o: ../src/leveldb/db/table_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/table_cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o -c /opt/chotkocoin/src/leveldb/db/table_cache.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/table_cache.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/table_cache.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/table_cache.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/table_cache.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/table_cache.cc.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o: ../src/leveldb/db/version_edit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_edit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o -c /opt/chotkocoin/src/leveldb/db/version_edit.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_edit.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/version_edit.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_edit.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/version_edit.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o: ../src/leveldb/db/version_edit_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_edit_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o -c /opt/chotkocoin/src/leveldb/db/version_edit_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_edit_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/version_edit_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_edit_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/version_edit_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_edit_test.cc.o.provides
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o: ../src/leveldb/db/version_set.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_set.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o -c /opt/chotkocoin/src/leveldb/db/version_set.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_set.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/version_set.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_set.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/version_set.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set.cc.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o: ../src/leveldb/db/version_set_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_set_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o -c /opt/chotkocoin/src/leveldb/db/version_set_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_set_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/version_set_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/version_set_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/version_set_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/version_set_test.cc.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o: ../src/leveldb/db/write_batch.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/write_batch.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o -c /opt/chotkocoin/src/leveldb/db/write_batch.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/write_batch.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/write_batch.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/write_batch.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/write_batch.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch.cc.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o: ../src/leveldb/db/write_batch_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/db/write_batch_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o -c /opt/chotkocoin/src/leveldb/db/write_batch_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/db/write_batch_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/db/write_batch_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/db/write_batch_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/db/write_batch_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/db/write_batch_test.cc.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o: ../src/leveldb/doc/bench/db_bench_sqlite3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/doc/bench/db_bench_sqlite3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o -c /opt/chotkocoin/src/leveldb/doc/bench/db_bench_sqlite3.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/doc/bench/db_bench_sqlite3.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/doc/bench/db_bench_sqlite3.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/doc/bench/db_bench_sqlite3.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/doc/bench/db_bench_sqlite3.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o.pr
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o: ../src/leveldb/doc/bench/db_bench_tree_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/doc/bench/db_bench_tree_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o -c /opt/chotkocoin/src/leveldb/doc/bench/db_bench_tree_db.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/doc/bench/db_bench_tree_db.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/doc/bench/db_bench_tree_db.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/doc/bench/db_bench_tree_db.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/doc/bench/db_bench_tree_db.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o.pr
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o: ../src/leveldb/helpers/memenv/memenv.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/helpers/memenv/memenv.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o -c /opt/chotkocoin/src/leveldb/helpers/memenv/memenv.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/helpers/memenv/memenv.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/helpers/memenv/memenv.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/helpers/memenv/memenv.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/helpers/memenv/memenv.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv.cc.o.provide
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o: ../src/leveldb/helpers/memenv/memenv_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/helpers/memenv/memenv_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o -c /opt/chotkocoin/src/leveldb/helpers/memenv/memenv_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/helpers/memenv/memenv_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/helpers/memenv/memenv_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/helpers/memenv/memenv_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/helpers/memenv/memenv_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/helpers/memenv/memenv_test.cc.o.pr
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o: ../src/leveldb/issues/issue178_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/issues/issue178_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o -c /opt/chotkocoin/src/leveldb/issues/issue178_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/issues/issue178_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/issues/issue178_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/issues/issue178_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/issues/issue178_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/issues/issue178_test.cc.o.provides
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o: ../src/leveldb/port/port_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/port/port_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o -c /opt/chotkocoin/src/leveldb/port/port_posix.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/port/port_posix.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/port/port_posix.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/port/port_posix.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/port/port_posix.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_posix.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o: ../src/leveldb/port/port_win.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/port/port_win.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o -c /opt/chotkocoin/src/leveldb/port/port_win.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/port/port_win.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/port/port_win.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/port/port_win.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/port/port_win.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/port/port_win.cc.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o: ../src/leveldb/table/block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o -c /opt/chotkocoin/src/leveldb/table/block.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/block.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/block.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/block.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/block.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o: ../src/leveldb/table/block_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/block_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o -c /opt/chotkocoin/src/leveldb/table/block_builder.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/block_builder.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/block_builder.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/block_builder.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/block_builder.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/block_builder.cc.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o: ../src/leveldb/table/filter_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/filter_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o -c /opt/chotkocoin/src/leveldb/table/filter_block.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/filter_block.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/filter_block.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/filter_block.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/filter_block.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block.cc.o.provides.b
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o: ../src/leveldb/table/filter_block_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/filter_block_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o -c /opt/chotkocoin/src/leveldb/table/filter_block_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/filter_block_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/filter_block_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/filter_block_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/filter_block_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/filter_block_test.cc.o.provi
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o: ../src/leveldb/table/format.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/format.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o -c /opt/chotkocoin/src/leveldb/table/format.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/format.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/format.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/format.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/format.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/format.cc.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o: ../src/leveldb/table/iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o -c /opt/chotkocoin/src/leveldb/table/iterator.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/iterator.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/iterator.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/iterator.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/iterator.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/iterator.cc.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o: ../src/leveldb/table/merger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/merger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o -c /opt/chotkocoin/src/leveldb/table/merger.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/merger.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/merger.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/merger.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/merger.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/merger.cc.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o: ../src/leveldb/table/table.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/table.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o -c /opt/chotkocoin/src/leveldb/table/table.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/table.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/table.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/table.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/table.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o: ../src/leveldb/table/table_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/table_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o -c /opt/chotkocoin/src/leveldb/table/table_builder.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/table_builder.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/table_builder.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/table_builder.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/table_builder.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_builder.cc.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o: ../src/leveldb/table/table_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/table_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o -c /opt/chotkocoin/src/leveldb/table/table_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/table_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/table_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/table_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/table_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/table_test.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o: ../src/leveldb/table/two_level_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/table/two_level_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o -c /opt/chotkocoin/src/leveldb/table/two_level_iterator.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/table/two_level_iterator.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/table/two_level_iterator.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/table/two_level_iterator.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/table/two_level_iterator.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/table/two_level_iterator.cc.o.prov
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o: ../src/leveldb/util/arena.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/arena.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o -c /opt/chotkocoin/src/leveldb/util/arena.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/arena.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/arena.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/arena.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/arena.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o: ../src/leveldb/util/arena_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/arena_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o -c /opt/chotkocoin/src/leveldb/util/arena_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/arena_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/arena_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/arena_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/arena_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/arena_test.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o: ../src/leveldb/util/bloom.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/bloom.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o -c /opt/chotkocoin/src/leveldb/util/bloom.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/bloom.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/bloom.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/bloom.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/bloom.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o: ../src/leveldb/util/bloom_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/bloom_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o -c /opt/chotkocoin/src/leveldb/util/bloom_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/bloom_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/bloom_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/bloom_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/bloom_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/bloom_test.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o: ../src/leveldb/util/cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o -c /opt/chotkocoin/src/leveldb/util/cache.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/cache.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/cache.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/cache.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/cache.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache.cc.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o: ../src/leveldb/util/cache_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/cache_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o -c /opt/chotkocoin/src/leveldb/util/cache_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/cache_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/cache_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/cache_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/cache_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/cache_test.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o: ../src/leveldb/util/coding.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/coding.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o -c /opt/chotkocoin/src/leveldb/util/coding.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/coding.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/coding.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/coding.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/coding.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o: ../src/leveldb/util/coding_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/coding_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o -c /opt/chotkocoin/src/leveldb/util/coding_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/coding_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/coding_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/coding_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/coding_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/coding_test.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o: ../src/leveldb/util/comparator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/comparator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o -c /opt/chotkocoin/src/leveldb/util/comparator.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/comparator.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/comparator.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/comparator.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/comparator.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/comparator.cc.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o: ../src/leveldb/util/crc32c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/crc32c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o -c /opt/chotkocoin/src/leveldb/util/crc32c.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/crc32c.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/crc32c.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/crc32c.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/crc32c.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o: ../src/leveldb/util/crc32c_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/crc32c_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o -c /opt/chotkocoin/src/leveldb/util/crc32c_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/crc32c_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/crc32c_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/crc32c_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/crc32c_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/crc32c_test.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o: ../src/leveldb/util/env.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/env.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o -c /opt/chotkocoin/src/leveldb/util/env.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/env.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/env.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/env.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/env.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env.cc.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o: ../src/leveldb/util/env_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o -c /opt/chotkocoin/src/leveldb/util/env_posix.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_posix.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/env_posix.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_posix.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/env_posix.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_posix.cc.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o: ../src/leveldb/util/env_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o -c /opt/chotkocoin/src/leveldb/util/env_test.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/env_test.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/env_test.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_test.cc.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o: ../src/leveldb/util/env_win.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_win.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o -c /opt/chotkocoin/src/leveldb/util/env_win.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_win.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/env_win.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/env_win.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/env_win.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o.requires:
 
@@ -1571,16 +1571,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/env_win.cc.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o: ../src/leveldb/util/filter_policy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/filter_policy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o -c /opt/chotkocoin/src/leveldb/util/filter_policy.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/filter_policy.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/filter_policy.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/filter_policy.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/filter_policy.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o.requires:
 
@@ -1595,16 +1595,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/filter_policy.cc.o.provides.b
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o: ../src/leveldb/util/hash.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/hash.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o -c /opt/chotkocoin/src/leveldb/util/hash.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/hash.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/hash.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/hash.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/hash.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o.requires:
 
@@ -1619,16 +1619,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/hash.cc.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o: ../src/leveldb/util/histogram.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/histogram.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o -c /opt/chotkocoin/src/leveldb/util/histogram.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/histogram.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/histogram.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/histogram.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/histogram.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o.requires:
 
@@ -1643,16 +1643,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/histogram.cc.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o: ../src/leveldb/util/logging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/logging.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o -c /opt/chotkocoin/src/leveldb/util/logging.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/logging.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/logging.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/logging.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/logging.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o.requires:
 
@@ -1667,16 +1667,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/logging.cc.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o: ../src/leveldb/util/options.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/options.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o -c /opt/chotkocoin/src/leveldb/util/options.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/options.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/options.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/options.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/options.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o.requires:
 
@@ -1691,16 +1691,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/options.cc.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o: ../src/leveldb/util/status.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/status.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o -c /opt/chotkocoin/src/leveldb/util/status.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/status.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/status.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/status.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/status.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o.requires:
 
@@ -1715,16 +1715,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/status.cc.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o: ../src/leveldb/util/testharness.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/testharness.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o -c /opt/chotkocoin/src/leveldb/util/testharness.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/testharness.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/testharness.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/testharness.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/testharness.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o.requires:
 
@@ -1739,16 +1739,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testharness.cc.o.provides.bui
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o: ../src/leveldb/util/testutil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o -c /opt/chotkocoin-0.8.7.5/src/leveldb/util/testutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o -c /opt/chotkocoin/src/leveldb/util/testutil.cc
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb/util/testutil.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb/util/testutil.cc > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb/util/testutil.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb/util/testutil.cc -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o.requires:
 
@@ -1763,16 +1763,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb/util/testutil.cc.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o: ../src/qt/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o -c /opt/chotkocoin/src/qt/test/test_main.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/test/test_main.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/test/test_main.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/test/test_main.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/test/test_main.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o.requires:
 
@@ -1787,16 +1787,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/test_main.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o: ../src/qt/test/uritests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/test/uritests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o -c /opt/chotkocoin/src/qt/test/uritests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/test/uritests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/test/uritests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/test/uritests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/test/uritests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o.requires:
 
@@ -1811,16 +1811,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/test/uritests.cpp.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o: ../src/qt/aboutdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/aboutdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o -c /opt/chotkocoin/src/qt/aboutdialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/aboutdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/aboutdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/aboutdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/aboutdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o.requires:
 
@@ -1835,16 +1835,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/aboutdialog.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o: ../src/qt/addressbookpage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/addressbookpage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o -c /opt/chotkocoin/src/qt/addressbookpage.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/addressbookpage.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/addressbookpage.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/addressbookpage.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/addressbookpage.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o.requires:
 
@@ -1859,16 +1859,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addressbookpage.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o: ../src/qt/addresstablemodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/addresstablemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o -c /opt/chotkocoin/src/qt/addresstablemodel.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/addresstablemodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/addresstablemodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/addresstablemodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/addresstablemodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o.requires:
 
@@ -1883,16 +1883,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/addresstablemodel.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o: ../src/qt/askpassphrasedialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/askpassphrasedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o -c /opt/chotkocoin/src/qt/askpassphrasedialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/askpassphrasedialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/askpassphrasedialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/askpassphrasedialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/askpassphrasedialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o.requires:
 
@@ -1907,16 +1907,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/askpassphrasedialog.cpp.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o: ../src/qt/bitcoin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/bitcoin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o -c /opt/chotkocoin/src/qt/bitcoin.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/bitcoin.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/bitcoin.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/bitcoin.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/bitcoin.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o.requires:
 
@@ -1931,16 +1931,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoin.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o: ../src/qt/bitcoinaddressvalidator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/bitcoinaddressvalidator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o -c /opt/chotkocoin/src/qt/bitcoinaddressvalidator.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/bitcoinaddressvalidator.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/bitcoinaddressvalidator.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/bitcoinaddressvalidator.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/bitcoinaddressvalidator.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o.requires:
 
@@ -1955,16 +1955,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinaddressvalidator.cpp.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o: ../src/qt/bitcoinamountfield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/bitcoinamountfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o -c /opt/chotkocoin/src/qt/bitcoinamountfield.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/bitcoinamountfield.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/bitcoinamountfield.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/bitcoinamountfield.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/bitcoinamountfield.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o.requires:
 
@@ -1979,16 +1979,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinamountfield.cpp.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o: ../src/qt/bitcoingui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/bitcoingui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o -c /opt/chotkocoin/src/qt/bitcoingui.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/bitcoingui.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/bitcoingui.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/bitcoingui.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/bitcoingui.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o.requires:
 
@@ -2003,16 +2003,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoingui.cpp.o.provides.build: CMakeF
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o: ../src/qt/bitcoinstrings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/bitcoinstrings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o -c /opt/chotkocoin/src/qt/bitcoinstrings.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/bitcoinstrings.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/bitcoinstrings.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/bitcoinstrings.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/bitcoinstrings.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o.requires:
 
@@ -2027,16 +2027,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinstrings.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o: ../src/qt/bitcoinunits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/bitcoinunits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o -c /opt/chotkocoin/src/qt/bitcoinunits.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/bitcoinunits.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/bitcoinunits.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/bitcoinunits.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/bitcoinunits.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o.requires:
 
@@ -2051,16 +2051,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/bitcoinunits.cpp.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o: ../src/qt/clientmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/clientmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o -c /opt/chotkocoin/src/qt/clientmodel.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/clientmodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/clientmodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/clientmodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/clientmodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o.requires:
 
@@ -2075,16 +2075,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/clientmodel.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o: ../src/qt/coincontroldialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/coincontroldialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o -c /opt/chotkocoin/src/qt/coincontroldialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/coincontroldialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/coincontroldialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/coincontroldialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/coincontroldialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o.requires:
 
@@ -2099,16 +2099,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroldialog.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o: ../src/qt/coincontroltreewidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/coincontroltreewidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o -c /opt/chotkocoin/src/qt/coincontroltreewidget.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/coincontroltreewidget.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/coincontroltreewidget.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/coincontroltreewidget.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/coincontroltreewidget.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o.requires:
 
@@ -2123,16 +2123,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/coincontroltreewidget.cpp.o.provides.bu
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o: ../src/qt/csvmodelwriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/csvmodelwriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o -c /opt/chotkocoin/src/qt/csvmodelwriter.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/csvmodelwriter.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/csvmodelwriter.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/csvmodelwriter.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/csvmodelwriter.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o.requires:
 
@@ -2147,16 +2147,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/csvmodelwriter.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o: ../src/qt/editaddressdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/editaddressdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o -c /opt/chotkocoin/src/qt/editaddressdialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/editaddressdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/editaddressdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/editaddressdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/editaddressdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o.requires:
 
@@ -2171,16 +2171,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/editaddressdialog.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o: ../src/qt/guiutil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/guiutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o -c /opt/chotkocoin/src/qt/guiutil.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/guiutil.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/guiutil.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/guiutil.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/guiutil.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o.requires:
 
@@ -2195,16 +2195,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/guiutil.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o: ../src/qt/monitoreddatamapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/monitoreddatamapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o -c /opt/chotkocoin/src/qt/monitoreddatamapper.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/monitoreddatamapper.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/monitoreddatamapper.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/monitoreddatamapper.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/monitoreddatamapper.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o.requires:
 
@@ -2219,16 +2219,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/monitoreddatamapper.cpp.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o: ../src/qt/notificator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/notificator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o -c /opt/chotkocoin/src/qt/notificator.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/notificator.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/notificator.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/notificator.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/notificator.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o.requires:
 
@@ -2243,16 +2243,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/notificator.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o: ../src/qt/optionsdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/optionsdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o -c /opt/chotkocoin/src/qt/optionsdialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/optionsdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/optionsdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/optionsdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/optionsdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o.requires:
 
@@ -2267,16 +2267,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsdialog.cpp.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o: ../src/qt/optionsmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/optionsmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o -c /opt/chotkocoin/src/qt/optionsmodel.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/optionsmodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/optionsmodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/optionsmodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/optionsmodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o.requires:
 
@@ -2291,16 +2291,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/optionsmodel.cpp.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o: ../src/qt/overviewpage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/overviewpage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o -c /opt/chotkocoin/src/qt/overviewpage.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/overviewpage.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/overviewpage.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/overviewpage.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/overviewpage.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o.requires:
 
@@ -2315,16 +2315,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/overviewpage.cpp.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o: ../src/qt/paymentserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/paymentserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o -c /opt/chotkocoin/src/qt/paymentserver.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/paymentserver.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/paymentserver.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/paymentserver.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/paymentserver.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o.requires:
 
@@ -2339,16 +2339,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/paymentserver.cpp.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o: ../src/qt/qrcodedialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/qrcodedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o -c /opt/chotkocoin/src/qt/qrcodedialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/qrcodedialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/qrcodedialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/qrcodedialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/qrcodedialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o.requires:
 
@@ -2363,16 +2363,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qrcodedialog.cpp.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o: ../src/qt/qvalidatedlineedit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/qvalidatedlineedit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o -c /opt/chotkocoin/src/qt/qvalidatedlineedit.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/qvalidatedlineedit.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/qvalidatedlineedit.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/qvalidatedlineedit.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/qvalidatedlineedit.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o.requires:
 
@@ -2387,16 +2387,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvalidatedlineedit.cpp.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o: ../src/qt/qvaluecombobox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/qvaluecombobox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o -c /opt/chotkocoin/src/qt/qvaluecombobox.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/qvaluecombobox.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/qvaluecombobox.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/qvaluecombobox.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/qvaluecombobox.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o.requires:
 
@@ -2411,16 +2411,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/qvaluecombobox.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o: ../src/qt/rpcconsole.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/rpcconsole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o -c /opt/chotkocoin/src/qt/rpcconsole.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/rpcconsole.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/rpcconsole.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/rpcconsole.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/rpcconsole.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o.requires:
 
@@ -2435,16 +2435,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/rpcconsole.cpp.o.provides.build: CMakeF
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o: ../src/qt/sendcoinsdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/sendcoinsdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o -c /opt/chotkocoin/src/qt/sendcoinsdialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/sendcoinsdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/sendcoinsdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/sendcoinsdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/sendcoinsdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o.requires:
 
@@ -2459,16 +2459,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsdialog.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o: ../src/qt/sendcoinsentry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/sendcoinsentry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o -c /opt/chotkocoin/src/qt/sendcoinsentry.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/sendcoinsentry.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/sendcoinsentry.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/sendcoinsentry.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/sendcoinsentry.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o.requires:
 
@@ -2483,16 +2483,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/sendcoinsentry.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o: ../src/qt/signverifymessagedialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/signverifymessagedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o -c /opt/chotkocoin/src/qt/signverifymessagedialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/signverifymessagedialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/signverifymessagedialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/signverifymessagedialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/signverifymessagedialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o.requires:
 
@@ -2507,16 +2507,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/signverifymessagedialog.cpp.o.provides.
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o: ../src/qt/splashscreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/splashscreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o -c /opt/chotkocoin/src/qt/splashscreen.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/splashscreen.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/splashscreen.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/splashscreen.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/splashscreen.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o.requires:
 
@@ -2531,16 +2531,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/splashscreen.cpp.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o: ../src/qt/transactiondesc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/transactiondesc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o -c /opt/chotkocoin/src/qt/transactiondesc.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/transactiondesc.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/transactiondesc.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/transactiondesc.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/transactiondesc.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o.requires:
 
@@ -2555,16 +2555,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondesc.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o: ../src/qt/transactiondescdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/transactiondescdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o -c /opt/chotkocoin/src/qt/transactiondescdialog.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/transactiondescdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/transactiondescdialog.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/transactiondescdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/transactiondescdialog.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o.requires:
 
@@ -2579,16 +2579,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiondescdialog.cpp.o.provides.bu
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o: ../src/qt/transactionfilterproxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/transactionfilterproxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o -c /opt/chotkocoin/src/qt/transactionfilterproxy.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/transactionfilterproxy.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/transactionfilterproxy.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/transactionfilterproxy.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/transactionfilterproxy.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o.requires:
 
@@ -2603,16 +2603,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionfilterproxy.cpp.o.provides.b
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o: ../src/qt/transactionrecord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/transactionrecord.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o -c /opt/chotkocoin/src/qt/transactionrecord.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/transactionrecord.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/transactionrecord.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/transactionrecord.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/transactionrecord.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o.requires:
 
@@ -2627,16 +2627,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionrecord.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o: ../src/qt/transactiontablemodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/transactiontablemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o -c /opt/chotkocoin/src/qt/transactiontablemodel.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/transactiontablemodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/transactiontablemodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/transactiontablemodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/transactiontablemodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o.requires:
 
@@ -2651,16 +2651,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactiontablemodel.cpp.o.provides.bu
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o: ../src/qt/transactionview.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/transactionview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o -c /opt/chotkocoin/src/qt/transactionview.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/transactionview.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/transactionview.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/transactionview.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/transactionview.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o.requires:
 
@@ -2675,16 +2675,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/transactionview.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o: ../src/qt/walletframe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/walletframe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o -c /opt/chotkocoin/src/qt/walletframe.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/walletframe.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/walletframe.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/walletframe.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/walletframe.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o.requires:
 
@@ -2699,16 +2699,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletframe.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o: ../src/qt/walletmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/walletmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o -c /opt/chotkocoin/src/qt/walletmodel.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/walletmodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/walletmodel.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/walletmodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/walletmodel.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o.requires:
 
@@ -2723,16 +2723,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletmodel.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o: ../src/qt/walletstack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/walletstack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o -c /opt/chotkocoin/src/qt/walletstack.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/walletstack.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/walletstack.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/walletstack.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/walletstack.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o.requires:
 
@@ -2747,16 +2747,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletstack.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o: ../src/qt/walletview.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o -c /opt/chotkocoin-0.8.7.5/src/qt/walletview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o -c /opt/chotkocoin/src/qt/walletview.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/qt/walletview.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/qt/walletview.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/qt/walletview.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/qt/walletview.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o.requires:
 
@@ -2771,16 +2771,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/qt/walletview.cpp.o.provides.build: CMakeF
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o: ../src/test/accounting_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/accounting_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o -c /opt/chotkocoin/src/test/accounting_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/accounting_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/accounting_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/accounting_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/accounting_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o.requires:
 
@@ -2795,16 +2795,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/accounting_tests.cpp.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o: ../src/test/alert_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/alert_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o -c /opt/chotkocoin/src/test/alert_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/alert_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/alert_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/alert_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/alert_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o.requires:
 
@@ -2819,16 +2819,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/alert_tests.cpp.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o: ../src/test/allocator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/allocator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o -c /opt/chotkocoin/src/test/allocator_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/allocator_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/allocator_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/allocator_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/allocator_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o.requires:
 
@@ -2843,16 +2843,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/allocator_tests.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o: ../src/test/base32_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/base32_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o -c /opt/chotkocoin/src/test/base32_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/base32_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/base32_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/base32_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/base32_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o.requires:
 
@@ -2867,16 +2867,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base32_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o: ../src/test/base58_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/base58_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o -c /opt/chotkocoin/src/test/base58_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/base58_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/base58_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/base58_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/base58_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o.requires:
 
@@ -2891,16 +2891,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base58_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o: ../src/test/base64_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/base64_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o -c /opt/chotkocoin/src/test/base64_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/base64_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/base64_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/base64_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/base64_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o.requires:
 
@@ -2915,16 +2915,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/base64_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o: ../src/test/bignum_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/bignum_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o -c /opt/chotkocoin/src/test/bignum_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/bignum_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/bignum_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/bignum_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/bignum_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o.requires:
 
@@ -2939,16 +2939,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bignum_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o: ../src/test/bloom_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/bloom_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o -c /opt/chotkocoin/src/test/bloom_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/bloom_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/bloom_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/bloom_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/bloom_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o.requires:
 
@@ -2963,16 +2963,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/bloom_tests.cpp.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o: ../src/test/canonical_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/canonical_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o -c /opt/chotkocoin/src/test/canonical_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/canonical_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/canonical_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/canonical_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/canonical_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o.requires:
 
@@ -2987,16 +2987,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/canonical_tests.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o: ../src/test/checkblock_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/checkblock_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o -c /opt/chotkocoin/src/test/checkblock_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/checkblock_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/checkblock_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/checkblock_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/checkblock_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o.requires:
 
@@ -3011,16 +3011,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/checkblock_tests.cpp.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o: ../src/test/Checkpoints_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/Checkpoints_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o -c /opt/chotkocoin/src/test/Checkpoints_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/Checkpoints_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/Checkpoints_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/Checkpoints_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/Checkpoints_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o.requires:
 
@@ -3035,16 +3035,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/Checkpoints_tests.cpp.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o: ../src/test/compress_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/compress_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o -c /opt/chotkocoin/src/test/compress_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/compress_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/compress_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/compress_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/compress_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o.requires:
 
@@ -3059,16 +3059,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/compress_tests.cpp.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o: ../src/test/DoS_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/DoS_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o -c /opt/chotkocoin/src/test/DoS_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/DoS_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/DoS_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/DoS_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/DoS_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o.requires:
 
@@ -3083,16 +3083,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/DoS_tests.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o: ../src/test/getarg_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/getarg_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o -c /opt/chotkocoin/src/test/getarg_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/getarg_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/getarg_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/getarg_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/getarg_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o.requires:
 
@@ -3107,16 +3107,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/getarg_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o: ../src/test/key_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/key_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o -c /opt/chotkocoin/src/test/key_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/key_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/key_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/key_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/key_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o.requires:
 
@@ -3131,16 +3131,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/key_tests.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o: ../src/test/miner_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/miner_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o -c /opt/chotkocoin/src/test/miner_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/miner_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/miner_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/miner_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/miner_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o.requires:
 
@@ -3155,16 +3155,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/miner_tests.cpp.o.provides.build: CMa
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o: ../src/test/mruset_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/mruset_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o -c /opt/chotkocoin/src/test/mruset_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/mruset_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/mruset_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/mruset_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/mruset_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o.requires:
 
@@ -3179,16 +3179,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/mruset_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o: ../src/test/multisig_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/multisig_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o -c /opt/chotkocoin/src/test/multisig_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/multisig_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/multisig_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/multisig_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/multisig_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o.requires:
 
@@ -3203,16 +3203,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/multisig_tests.cpp.o.provides.build: 
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o: ../src/test/netbase_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/netbase_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o -c /opt/chotkocoin/src/test/netbase_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/netbase_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/netbase_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/netbase_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/netbase_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o.requires:
 
@@ -3227,16 +3227,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/netbase_tests.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o: ../src/test/pmt_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/pmt_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o -c /opt/chotkocoin/src/test/pmt_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/pmt_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/pmt_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/pmt_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/pmt_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o.requires:
 
@@ -3251,16 +3251,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/pmt_tests.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o: ../src/test/rpc_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/rpc_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o -c /opt/chotkocoin/src/test/rpc_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/rpc_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/rpc_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/rpc_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/rpc_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o.requires:
 
@@ -3275,16 +3275,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/rpc_tests.cpp.o.provides.build: CMake
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o: ../src/test/script_P2SH_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/script_P2SH_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o -c /opt/chotkocoin/src/test/script_P2SH_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/script_P2SH_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/script_P2SH_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/script_P2SH_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/script_P2SH_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o.requires:
 
@@ -3299,16 +3299,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_P2SH_tests.cpp.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o: ../src/test/script_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/script_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o -c /opt/chotkocoin/src/test/script_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/script_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/script_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/script_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/script_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o.requires:
 
@@ -3323,16 +3323,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/script_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o: ../src/test/scrypt_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/scrypt_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o -c /opt/chotkocoin/src/test/scrypt_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/scrypt_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/scrypt_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/scrypt_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/scrypt_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o.requires:
 
@@ -3347,16 +3347,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/scrypt_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o: ../src/test/serialize_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/serialize_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o -c /opt/chotkocoin/src/test/serialize_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/serialize_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/serialize_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/serialize_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/serialize_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o.requires:
 
@@ -3371,16 +3371,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/serialize_tests.cpp.o.provides.build:
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o: ../src/test/sigopcount_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/sigopcount_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o -c /opt/chotkocoin/src/test/sigopcount_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/sigopcount_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/sigopcount_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/sigopcount_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/sigopcount_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o.requires:
 
@@ -3395,16 +3395,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/sigopcount_tests.cpp.o.provides.build
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o: ../src/test/test_bitcoin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/test_bitcoin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o -c /opt/chotkocoin/src/test/test_bitcoin.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/test_bitcoin.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/test_bitcoin.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/test_bitcoin.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/test_bitcoin.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o.requires:
 
@@ -3419,16 +3419,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/test_bitcoin.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o: ../src/test/transaction_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/transaction_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o -c /opt/chotkocoin/src/test/transaction_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/transaction_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/transaction_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/transaction_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/transaction_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o.requires:
 
@@ -3443,16 +3443,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/transaction_tests.cpp.o.provides.buil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o: ../src/test/uint160_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/uint160_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o -c /opt/chotkocoin/src/test/uint160_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/uint160_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/uint160_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/uint160_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/uint160_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o.requires:
 
@@ -3467,16 +3467,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint160_tests.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o: ../src/test/uint256_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/uint256_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o -c /opt/chotkocoin/src/test/uint256_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/uint256_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/uint256_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/uint256_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/uint256_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o.requires:
 
@@ -3491,16 +3491,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/uint256_tests.cpp.o.provides.build: C
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o: ../src/test/util_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/util_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o -c /opt/chotkocoin/src/test/util_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/util_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/util_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/util_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/util_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o.requires:
 
@@ -3515,16 +3515,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/util_tests.cpp.o.provides.build: CMak
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o: ../src/test/wallet_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o -c /opt/chotkocoin-0.8.7.5/src/test/wallet_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o -c /opt/chotkocoin/src/test/wallet_tests.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/test/wallet_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/test/wallet_tests.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/test/wallet_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/test/wallet_tests.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o.requires:
 
@@ -3539,16 +3539,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/test/wallet_tests.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o: ../src/addrman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o -c /opt/chotkocoin-0.8.7.5/src/addrman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o -c /opt/chotkocoin/src/addrman.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/addrman.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/addrman.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/addrman.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/addrman.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o.requires:
 
@@ -3563,16 +3563,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/addrman.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o: ../src/alert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o -c /opt/chotkocoin-0.8.7.5/src/alert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o -c /opt/chotkocoin/src/alert.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/alert.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/alert.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/alert.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/alert.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o.requires:
 
@@ -3587,16 +3587,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/alert.cpp.o.provides.build: CMakeFiles/cho
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o: ../src/bitcoinrpc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o -c /opt/chotkocoin-0.8.7.5/src/bitcoinrpc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o -c /opt/chotkocoin/src/bitcoinrpc.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/bitcoinrpc.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/bitcoinrpc.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/bitcoinrpc.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/bitcoinrpc.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o.requires:
 
@@ -3611,16 +3611,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/bitcoinrpc.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o: ../src/bloom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o -c /opt/chotkocoin-0.8.7.5/src/bloom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o -c /opt/chotkocoin/src/bloom.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/bloom.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/bloom.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/bloom.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/bloom.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o.requires:
 
@@ -3635,16 +3635,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/bloom.cpp.o.provides.build: CMakeFiles/cho
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o: ../src/checkpoints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o -c /opt/chotkocoin-0.8.7.5/src/checkpoints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o -c /opt/chotkocoin/src/checkpoints.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/checkpoints.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/checkpoints.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/checkpoints.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/checkpoints.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o.requires:
 
@@ -3659,16 +3659,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/checkpoints.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o: ../src/crypter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o -c /opt/chotkocoin-0.8.7.5/src/crypter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o -c /opt/chotkocoin/src/crypter.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/crypter.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/crypter.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/crypter.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/crypter.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o.requires:
 
@@ -3683,16 +3683,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/crypter.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o: ../src/db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o -c /opt/chotkocoin-0.8.7.5/src/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o -c /opt/chotkocoin/src/db.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/db.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/db.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/db.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/db.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o.requires:
 
@@ -3707,16 +3707,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/db.cpp.o.provides.build: CMakeFiles/chotko
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o: ../src/hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o -c /opt/chotkocoin-0.8.7.5/src/hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o -c /opt/chotkocoin/src/hash.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/hash.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/hash.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/hash.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/hash.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o.requires:
 
@@ -3731,16 +3731,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/hash.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o: ../src/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o -c /opt/chotkocoin-0.8.7.5/src/init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o -c /opt/chotkocoin/src/init.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/init.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/init.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/init.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/init.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o.requires:
 
@@ -3755,16 +3755,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/init.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o: ../src/key.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o -c /opt/chotkocoin-0.8.7.5/src/key.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o -c /opt/chotkocoin/src/key.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/key.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/key.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/key.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/key.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o.requires:
 
@@ -3779,16 +3779,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/key.cpp.o.provides.build: CMakeFiles/chotk
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o: ../src/keystore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o -c /opt/chotkocoin-0.8.7.5/src/keystore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o -c /opt/chotkocoin/src/keystore.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/keystore.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/keystore.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/keystore.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/keystore.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o.requires:
 
@@ -3803,16 +3803,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/keystore.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o: ../src/leveldb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o -c /opt/chotkocoin-0.8.7.5/src/leveldb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o -c /opt/chotkocoin/src/leveldb.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/leveldb.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/leveldb.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/leveldb.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/leveldb.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o.requires:
 
@@ -3827,16 +3827,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/leveldb.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o -c /opt/chotkocoin-0.8.7.5/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o -c /opt/chotkocoin/src/main.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/main.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/main.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/main.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/main.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o.requires:
 
@@ -3851,16 +3851,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/main.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o: ../src/net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o -c /opt/chotkocoin-0.8.7.5/src/net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o -c /opt/chotkocoin/src/net.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/net.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/net.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/net.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/net.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o.requires:
 
@@ -3875,16 +3875,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/net.cpp.o.provides.build: CMakeFiles/chotk
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o: ../src/netbase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o -c /opt/chotkocoin-0.8.7.5/src/netbase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o -c /opt/chotkocoin/src/netbase.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/netbase.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/netbase.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/netbase.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/netbase.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o.requires:
 
@@ -3899,16 +3899,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/netbase.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o: ../src/noui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o -c /opt/chotkocoin-0.8.7.5/src/noui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o -c /opt/chotkocoin/src/noui.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/noui.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/noui.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/noui.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/noui.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o.requires:
 
@@ -3923,16 +3923,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/noui.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o: ../src/protocol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o -c /opt/chotkocoin-0.8.7.5/src/protocol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o -c /opt/chotkocoin/src/protocol.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/protocol.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/protocol.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/protocol.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/protocol.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o.requires:
 
@@ -3947,16 +3947,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/protocol.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o: ../src/rpcblockchain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o -c /opt/chotkocoin-0.8.7.5/src/rpcblockchain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o -c /opt/chotkocoin/src/rpcblockchain.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/rpcblockchain.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/rpcblockchain.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/rpcblockchain.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/rpcblockchain.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o.requires:
 
@@ -3971,16 +3971,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcblockchain.cpp.o.provides.build: CMakeF
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o: ../src/rpcdump.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o -c /opt/chotkocoin-0.8.7.5/src/rpcdump.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o -c /opt/chotkocoin/src/rpcdump.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/rpcdump.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/rpcdump.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/rpcdump.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/rpcdump.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o.requires:
 
@@ -3995,16 +3995,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcdump.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o: ../src/rpcmining.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o -c /opt/chotkocoin-0.8.7.5/src/rpcmining.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o -c /opt/chotkocoin/src/rpcmining.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/rpcmining.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/rpcmining.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/rpcmining.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/rpcmining.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o.requires:
 
@@ -4019,16 +4019,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcmining.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o: ../src/rpcnet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o -c /opt/chotkocoin-0.8.7.5/src/rpcnet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o -c /opt/chotkocoin/src/rpcnet.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/rpcnet.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/rpcnet.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/rpcnet.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/rpcnet.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o.requires:
 
@@ -4043,16 +4043,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcnet.cpp.o.provides.build: CMakeFiles/ch
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o: ../src/rpcrawtransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o -c /opt/chotkocoin-0.8.7.5/src/rpcrawtransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o -c /opt/chotkocoin/src/rpcrawtransaction.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/rpcrawtransaction.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/rpcrawtransaction.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/rpcrawtransaction.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/rpcrawtransaction.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o.requires:
 
@@ -4067,16 +4067,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcrawtransaction.cpp.o.provides.build: CM
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o: ../src/rpcwallet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o -c /opt/chotkocoin-0.8.7.5/src/rpcwallet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o -c /opt/chotkocoin/src/rpcwallet.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/rpcwallet.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/rpcwallet.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/rpcwallet.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/rpcwallet.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o.requires:
 
@@ -4091,16 +4091,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/rpcwallet.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o: ../src/script.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o -c /opt/chotkocoin-0.8.7.5/src/script.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o -c /opt/chotkocoin/src/script.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/script.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/script.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/script.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/script.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o.requires:
 
@@ -4115,16 +4115,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/script.cpp.o.provides.build: CMakeFiles/ch
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o: ../src/scrypt-sse2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o -c /opt/chotkocoin-0.8.7.5/src/scrypt-sse2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o -c /opt/chotkocoin/src/scrypt-sse2.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/scrypt-sse2.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/scrypt-sse2.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/scrypt-sse2.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/scrypt-sse2.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o.requires:
 
@@ -4139,16 +4139,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt-sse2.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o: ../src/scrypt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o -c /opt/chotkocoin-0.8.7.5/src/scrypt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o -c /opt/chotkocoin/src/scrypt.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/scrypt.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/scrypt.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/scrypt.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/scrypt.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o.requires:
 
@@ -4163,16 +4163,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/scrypt.cpp.o.provides.build: CMakeFiles/ch
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o: ../src/sync.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o -c /opt/chotkocoin-0.8.7.5/src/sync.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o -c /opt/chotkocoin/src/sync.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/sync.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/sync.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/sync.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/sync.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o.requires:
 
@@ -4187,16 +4187,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/sync.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o: ../src/txdb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o -c /opt/chotkocoin-0.8.7.5/src/txdb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o -c /opt/chotkocoin/src/txdb.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/txdb.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/txdb.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/txdb.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/txdb.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o.requires:
 
@@ -4211,16 +4211,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/txdb.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o: ../src/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o -c /opt/chotkocoin-0.8.7.5/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o -c /opt/chotkocoin/src/util.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/util.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/util.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/util.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/util.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o.requires:
 
@@ -4235,16 +4235,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/util.cpp.o.provides.build: CMakeFiles/chot
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o: ../src/version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o -c /opt/chotkocoin-0.8.7.5/src/version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o -c /opt/chotkocoin/src/version.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/version.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/version.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/version.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/version.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o.requires:
 
@@ -4259,16 +4259,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/version.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o: ../src/wallet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o -c /opt/chotkocoin-0.8.7.5/src/wallet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o -c /opt/chotkocoin/src/wallet.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/wallet.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/wallet.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/wallet.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/wallet.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o.requires:
 
@@ -4283,16 +4283,16 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o.provides.build: CMakeFiles/ch
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o: CMakeFiles/chotkocoin_0_8_7_5.dir/flags.make
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o: ../src/walletdb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o -c /opt/chotkocoin-0.8.7.5/src/walletdb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o -c /opt/chotkocoin/src/walletdb.cpp
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin-0.8.7.5/src/walletdb.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/chotkocoin/src/walletdb.cpp > CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.i
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin-0.8.7.5/src/walletdb.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/chotkocoin/src/walletdb.cpp -o CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.s
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o.requires:
 
@@ -4667,7 +4667,7 @@ chotkocoin_0_8_7_5: CMakeFiles/chotkocoin_0_8_7_5.dir/src/wallet.cpp.o
 chotkocoin_0_8_7_5: CMakeFiles/chotkocoin_0_8_7_5.dir/src/walletdb.cpp.o
 chotkocoin_0_8_7_5: CMakeFiles/chotkocoin_0_8_7_5.dir/build.make
 chotkocoin_0_8_7_5: CMakeFiles/chotkocoin_0_8_7_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Linking CXX executable chotkocoin_0_8_7_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/chotkocoin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Linking CXX executable chotkocoin_0_8_7_5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chotkocoin_0_8_7_5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4860,6 +4860,6 @@ CMakeFiles/chotkocoin_0_8_7_5.dir/clean:
 .PHONY : CMakeFiles/chotkocoin_0_8_7_5.dir/clean
 
 CMakeFiles/chotkocoin_0_8_7_5.dir/depend:
-	cd /opt/chotkocoin-0.8.7.5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/chotkocoin-0.8.7.5 /opt/chotkocoin-0.8.7.5 /opt/chotkocoin-0.8.7.5/cmake-build-debug /opt/chotkocoin-0.8.7.5/cmake-build-debug /opt/chotkocoin-0.8.7.5/cmake-build-debug/CMakeFiles/chotkocoin_0_8_7_5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/chotkocoin/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/chotkocoin /opt/chotkocoin /opt/chotkocoin/cmake-build-debug /opt/chotkocoin/cmake-build-debug /opt/chotkocoin/cmake-build-debug/CMakeFiles/chotkocoin_0_8_7_5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chotkocoin_0_8_7_5.dir/depend
 

@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chotkocoin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/opt/chotkocoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/opt/chotkocoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/opt/chotkocoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chotkocoin">
+				<Option output="/opt/chotkocoin/cmake-build-debug/chotkocoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/chotkocoin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 chotkocoin"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chotkocoin/fast">
+				<Option output="/opt/chotkocoin/cmake-build-debug/chotkocoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/chotkocoin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 chotkocoin/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/opt/chotkocoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/opt/chotkocoin/CMakeLists.txt">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/Makefile">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/build.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_aboutdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_addressbookpage.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_addresstablemodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_askpassphrasedialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_bitcoinaddressvalidator.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_bitcoinamountfield.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_bitcoingui.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_bitcoinunits.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_clientmodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_coincontroldialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_coincontroltreewidget.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_csvmodelwriter.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_editaddressdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_guiutil.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_macnotificationhandler.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_monitoreddatamapper.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_notificator.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_optionsdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_optionsmodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_overviewpage.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_paymentserver.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_qvalidatedlineedit.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_qvaluecombobox.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_rpcconsole.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_sendcoinsdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_sendcoinsentry.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_signverifymessagedialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_splashscreen.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_transactiondesc.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_transactiondescdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_transactionfilterproxy.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_transactiontablemodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_transactionview.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_walletframe.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_walletmodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_walletstack.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/moc_walletview.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_aboutdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_addressbookpage.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_askpassphrasedialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_coincontroldialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_editaddressdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_optionsdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_overviewpage.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_rpcconsole.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_sendcoinsdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_sendcoinsentry.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_signverifymessagedialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/build/ui_transactiondescdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/qrc_bitcoin.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/certs/BitcoinFoundation_Apple_Cert.pem">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/certs/BitcoinFoundation_Comodo_Cert.pem">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/certs/PrivateKeyNotes.md">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/genbuild.sh">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/addressbook16.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/addressbook16mask.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/addressbook20.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/addressbook20mask.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin-bc.ico">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin.ico">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin128.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin128.xpm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin16.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin16.xpm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin256.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin256.xpm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin32.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin32.xpm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin64.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/bitcoin64.xpm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/check.ico">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/favicon.ico">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/nsis-header.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/nsis-wizard.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/send16.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/send16mask.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/send16masknoshadow.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/send20.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/pixmaps/send20mask.bmp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/qt/Info.plist">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/qt/clean_mac_info_plist.py">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/qt/extract_strings_qt.py">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/qt/img/reload.xcf">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/qt/make_spinner.py">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/qt/make_windows_icon.sh">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/setup.nsi">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/share/ui.rc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/addrman.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/addrman.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/alert.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/alert.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/allocators.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/base58.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/bignum.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/bitcoinrpc.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/bitcoinrpc.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/bloom.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/bloom.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/checkpoints.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/checkpoints.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/checkqueue.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/clientversion.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/coincontrol.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/compat.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/crypter.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/crypter.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/db.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/db.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/hash.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/hash.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/init.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/init.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_error_position.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_reader.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_reader.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_reader_template.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_stream_reader.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_utils.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_value.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_value.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_writer.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_writer.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/json/json_spirit_writer_template.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/key.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/key.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/keystore.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/keystore.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/autocompact_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/builder.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/builder.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/c.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/c_test.c">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/corruption_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/db_bench.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/db_impl.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/db_impl.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/db_iter.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/db_iter.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/db_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/dbformat.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/dbformat.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/dbformat_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/filename.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/filename.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/filename_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/leveldb_main.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/log_format.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/log_reader.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/log_reader.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/log_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/log_writer.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/log_writer.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/memtable.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/memtable.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/repair.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/skiplist.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/skiplist_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/snapshot.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/table_cache.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/table_cache.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/version_edit.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/version_edit.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/version_edit_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/version_set.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/version_set.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/version_set_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/write_batch.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/write_batch_internal.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/db/write_batch_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/doc/bench/db_bench_sqlite3.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/doc/bench/db_bench_tree_db.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/helpers/memenv/memenv.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/helpers/memenv/memenv.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/helpers/memenv/memenv_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/c.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/cache.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/comparator.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/db.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/env.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/filter_policy.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/iterator.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/options.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/slice.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/status.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/table.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/table_builder.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/include/leveldb/write_batch.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/issues/issue178_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/atomic_pointer.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/port.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/port_example.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/port_posix.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/port_posix.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/port_win.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/port_win.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/thread_annotations.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/port/win/stdint.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/block.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/block.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/block_builder.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/block_builder.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/filter_block.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/filter_block.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/filter_block_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/format.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/format.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/iterator.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/iterator_wrapper.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/merger.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/merger.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/table.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/table_builder.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/table_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/two_level_iterator.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/table/two_level_iterator.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/arena.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/arena.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/arena_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/bloom.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/bloom_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/cache.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/cache_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/coding.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/coding.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/coding_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/comparator.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/crc32c.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/crc32c.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/crc32c_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/env.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/env_posix.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/env_test.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/env_win.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/filter_policy.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/hash.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/hash.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/histogram.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/histogram.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/logging.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/logging.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/mutexlock.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/options.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/posix_logger.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/random.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/status.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/testharness.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/testharness.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/testutil.cc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/leveldb/util/testutil.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/limitedmap.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/main.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/main.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/mruset.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/net.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/net.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/netbase.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/netbase.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/noui.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/obj/build.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/protocol.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/protocol.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/aboutdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/aboutdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/addressbookpage.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/addressbookpage.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/addresstablemodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/addresstablemodel.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/askpassphrasedialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/askpassphrasedialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoin.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinaddressvalidator.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinaddressvalidator.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinamountfield.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinamountfield.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoingui.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoingui.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinstrings.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinunits.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/bitcoinunits.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/clientmodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/clientmodel.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/coincontroldialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/coincontroldialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/coincontroltreewidget.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/coincontroltreewidget.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/csvmodelwriter.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/csvmodelwriter.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/editaddressdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/editaddressdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/aboutdialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/addressbookpage.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/askpassphrasedialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/coincontroldialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/editaddressdialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/optionsdialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/overviewpage.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/qrcodedialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/rpcconsole.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/sendcoinsdialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/sendcoinsentry.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/signverifymessagedialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/forms/transactiondescdialog.ui">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/guiconstants.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/guiutil.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/guiutil.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_af_ZA.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_af_ZA.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ar.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ar.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_bg.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_bg.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_bs.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_bs.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ca.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ca.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ca_ES.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ca_ES.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_cs.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_cs.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_cy.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_cy.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_da.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_da.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_de.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_de.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_el_GR.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_el_GR.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_en.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_en.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_eo.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_eo.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_es.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_es.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_es_CL.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_es_CL.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_et.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_et.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_eu_ES.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_eu_ES.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fa.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fa.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fa_IR.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fa_IR.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fi.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fi.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fr.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fr.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fr_CA.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_fr_CA.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_gu_IN.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_gu_IN.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_he.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_he.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_hi_IN.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_hi_IN.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_hr.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_hr.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_hu.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_hu.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_it.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_it.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ja.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ja.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_la.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_la.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_lt.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_lt.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_lv_LV.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_lv_LV.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_nb.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_nb.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_nl.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_nl.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_pl.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_pl.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_pt_BR.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_pt_BR.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_pt_PT.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_pt_PT.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ro_RO.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ro_RO.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ru.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_ru.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_sk.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_sk.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_sr.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_sr.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_sv.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_sv.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_th_TH.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_th_TH.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_tr.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_tr.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_uk.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_uk.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_zh_CN.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_zh_CN.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_zh_TW.qm">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/locale/bitcoin_zh_TW.ts">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/macdockiconhandler.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/macnotificationhandler.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/monitoreddatamapper.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/monitoreddatamapper.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/notificator.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/notificator.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/optionsdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/optionsdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/optionsmodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/optionsmodel.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/overviewpage.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/overviewpage.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/paymentserver.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/paymentserver.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/qrcodedialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/qrcodedialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/qvalidatedlineedit.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/qvalidatedlineedit.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/qvaluecombobox.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/qvaluecombobox.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/bitcoin-qt.rc">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/add.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/address-book.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/bitcoin.icns">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/bitcoin.ico">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/bitcoin.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/bitcoin_testnet.ico">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/bitcoin_testnet.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/clock1.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/clock2.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/clock3.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/clock4.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/clock5.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/configure.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/connect0_16.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/connect1_16.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/connect2_16.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/connect3_16.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/connect4_16.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/debugwindow.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/edit.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/editcopy.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/editpaste.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/export.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/filesave.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/history.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/key.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/litecoin.icns">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/lock_closed.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/lock_open.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/notsynced.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/overview.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/qrcode.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/quit.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/receive.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/remove.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/send.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/synced.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/toolbar.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/toolbar_testnet.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/transaction0.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/transaction2.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/tx_inout.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/tx_input.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/tx_mined.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/icons/tx_output.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/images/about.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/images/splash.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/images/splash_testnet.png">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/movies/update_spinner.mng">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/bitcoin.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/clock1.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/clock2.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/clock3.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/clock4.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/clock5.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/clock_green.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/inout.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/res/src/questionmark.svg">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/rpcconsole.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/rpcconsole.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/sendcoinsdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/sendcoinsdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/sendcoinsentry.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/sendcoinsentry.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/signverifymessagedialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/signverifymessagedialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/splashscreen.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/splashscreen.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/test/test_main.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/test/uritests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/test/uritests.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactiondesc.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactiondesc.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactiondescdialog.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactiondescdialog.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactionfilterproxy.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactionfilterproxy.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactionrecord.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactionrecord.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactiontablemodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactiontablemodel.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactionview.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/transactionview.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletframe.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletframe.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletmodel.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletmodel.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletstack.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletstack.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletview.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/qt/walletview.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/rpcblockchain.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/rpcdump.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/rpcmining.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/rpcnet.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/rpcrawtransaction.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/rpcwallet.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/script.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/script.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/scrypt-sse2.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/scrypt.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/scrypt.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/serialize.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/sync.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/sync.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/Checkpoints_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/DoS_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/accounting_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/alert_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/allocator_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/base32_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/base58_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/base64_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/bignum_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/bloom_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/canonical_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/checkblock_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/compress_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/getarg_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/key_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/miner_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/mruset_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/multisig_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/netbase_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/pmt_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/rpc_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/script_P2SH_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/script_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/scrypt_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/serialize_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/sigopcount_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/test_bitcoin.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/transaction_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/uint160_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/uint256_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/util_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/test/wallet_tests.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/threadsafety.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/txdb.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/txdb.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/ui_interface.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/uint256.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/util.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/util.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/version.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/version.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/wallet.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/wallet.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/walletdb.cpp">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/src/walletdb.h">
+			<Option target="chotkocoin"/>
+		</Unit>
+		<Unit filename="/opt/chotkocoin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
