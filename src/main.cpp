@@ -1089,14 +1089,14 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 999 * COIN;
 
-    // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 8400000); // Chotkocoin: 840k blocks in ~4 years
+    // Subsidy is cut in half every 840000 blocks, which will occur approximately every 583 days
+    nSubsidy >>= (nHeight / 8400000); // Chotkocoin: 840k blocks in ~583 days
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // Chotkocoin: 3.5 days
-static const int64 nTargetSpacing = 1 * 60; // Chotkocoin: 2.5 minutes
+static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // Chotkocoin: 1 day
+static const int64 nTargetSpacing = 1 * 60; // Chotkocoin: 1 minute
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
