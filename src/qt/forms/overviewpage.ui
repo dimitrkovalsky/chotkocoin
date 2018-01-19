@@ -290,6 +290,16 @@
          </property>
         </spacer>
        </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="toolTip">
+          <string>use console</string>
+         </property>
+         <property name="text">
+          <string>Run Mining</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </item>
     </layout>

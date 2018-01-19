@@ -215,3 +215,8 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
     ui->labelWalletStatus->setVisible(fShow);
     ui->labelTransactionsStatus->setVisible(fShow);
 }
+
+void OverviewPage::on_pushButton_clicked()
+{
+    QMessageBox::information(this,"Mining", "Use wallet console for mining. Call >> setgenerate true");
+}
