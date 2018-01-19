@@ -117,6 +117,16 @@ static void handleRunawayException(std::exception *e)
 #ifndef BITCOIN_QT_TEST
 int main(int argc, char *argv[])
 {
+    argc += 2;
+    char* newArgs[argc];
+    int i = 0;
+    for(; i < argc-2; i++){
+        newArgs[i] = argv[i];
+    }
+    newArgs[i] = "-addnode=52.168.125.114";
+    i++;
+    newArgs[i] = "-addnode=52.168.79.234";
+    argv = newArgs;
     // Command-line options take precedence:
     ParseParameters(argc, argv);
 

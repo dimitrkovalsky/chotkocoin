@@ -4,7 +4,14 @@
 
 #include "overviewpage.h"
 #include "ui_overviewpage.h"
+/*#include "rpcconsole.h"
+#include "ui_rpcconsole.h"
 
+#include "clientmodel.h"
+#include "bitcoinrpc.h"
+#include "guiutil.h"
+#include "rpcmining.cpp"
+*/
 #include "clientmodel.h"
 #include "walletmodel.h"
 #include "bitcoinunits.h"
@@ -216,7 +223,13 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
     ui->labelTransactionsStatus->setVisible(fShow);
 }
 
+
 void OverviewPage::on_pushButton_clicked()
 {
+    /*this->generationRun  = !this->generationRun;
+    Array params;
+    params.push_back(this->generationRun);
+    setgenerate(params, false);
+*/
     QMessageBox::information(this,"Mining", "Use wallet console for mining. Call >> setgenerate true");
 }
