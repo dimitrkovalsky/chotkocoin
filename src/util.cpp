@@ -563,6 +563,7 @@ void ParseParameters(int argc, const char* const argv[])
         mapArgs[str] = strValue;
         mapMultiArgs[str].push_back(strValue);
     }
+    //nodes can be added here
 
     // New 0.6 features:
     BOOST_FOREACH(const PAIRTYPE(string,string)& entry, mapArgs)
