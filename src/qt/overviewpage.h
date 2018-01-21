@@ -37,6 +37,10 @@ public slots:
 
 signals:
     void transactionClicked(const QModelIndex &index);
+    // For RPC command executor
+    void stopExecutor();
+    void cmdRequest(const QString &command);
+
 
 private:
     Ui::OverviewPage *ui;
@@ -48,12 +52,15 @@ private:
 
     TxViewDelegate *txdelegate;
     TransactionFilterProxy *filter;
+    void startExecutor();
+    bool parseMyCommandLine(std::vector<std::string> &args, const std::string &strCommand);
+    bool miningRun;
 
 private slots:
     void updateDisplayUnit();
     void handleTransactionClicked(const QModelIndex &index);
     void updateAlerts(const QString &warnings);
-    void on_pushButton_clicked();
+    void on_miningButton_clicked();
 };
 
 #endif // OVERVIEWPAGE_H

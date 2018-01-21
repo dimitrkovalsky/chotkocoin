@@ -4,15 +4,7 @@
 
 #include "overviewpage.h"
 #include "ui_overviewpage.h"
-/*#include "rpcconsole.h"
-#include "ui_rpcconsole.h"
 
-#include "clientmodel.h"
-#include "bitcoinrpc.h"
-#include "guiutil.h"
-#include "rpcmining.cpp"
-*/
-#include "clientmodel.h"
 #include "walletmodel.h"
 #include "bitcoinunits.h"
 #include "optionsmodel.h"
@@ -26,6 +18,33 @@
 
 #define DECORATION_SIZE 64
 #define NUM_ITEMS 3
+
+#include "clientmodel.h"
+#include "bitcoinrpc.h"
+#include "guiutil.h"
+
+#include <QTime>
+#include <QThread>
+#include <QKeyEvent>
+#if QT_VERSION < 0x050000
+#include <QUrl>
+#endif
+#include <QScrollBar>
+
+#include <openssl/crypto.h>
+
+
+class OverviewRPCExecutor : public QObject
+{
+    Q_OBJECT
+
+public slots:
+    void request(const QString &command);
+
+signals:
+    void reply(int category, const QString &command);
+};
+
 
 class TxViewDelegate : public QAbstractItemDelegate
 {
@@ -129,6 +148,8 @@ OverviewPage::OverviewPage(QWidget *parent) :
 
     // start with displaying the "out of sync" warnings
     showOutOfSyncWarning(true);
+    miningRun = false;
+    startExecutor();
 }
 
 void OverviewPage::handleTransactionClicked(const QModelIndex &index)
@@ -139,6 +160,7 @@ void OverviewPage::handleTransactionClicked(const QModelIndex &index)
 
 OverviewPage::~OverviewPage()
 {
+      emit stopExecutor();
     delete ui;
 }
 
@@ -223,13 +245,165 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
     ui->labelTransactionsStatus->setVisible(fShow);
 }
 
-
-void OverviewPage::on_pushButton_clicked()
+bool parseMyCommandLine(std::vector<std::string> &args, const std::string &strCommand)
 {
-    /*this->generationRun  = !this->generationRun;
-    Array params;
-    params.push_back(this->generationRun);
-    setgenerate(params, false);
-*/
-    QMessageBox::information(this,"Mining", "Use wallet console for mining. Call >> setgenerate true");
+    enum CmdParseState
+    {
+        STATE_EATING_SPACES,
+        STATE_ARGUMENT,
+        STATE_SINGLEQUOTED,
+        STATE_DOUBLEQUOTED,
+        STATE_ESCAPE_OUTER,
+        STATE_ESCAPE_DOUBLEQUOTED
+    } state = STATE_EATING_SPACES;
+    std::string curarg;
+    foreach(char ch, strCommand)
+    {
+        switch(state)
+        {
+        case STATE_ARGUMENT: // In or after argument
+        case STATE_EATING_SPACES: // Handle runs of whitespace
+            switch(ch)
+            {
+            case '"': state = STATE_DOUBLEQUOTED; break;
+            case '\'': state = STATE_SINGLEQUOTED; break;
+            case '\\': state = STATE_ESCAPE_OUTER; break;
+            case ' ': case '\n': case '\t':
+                if(state == STATE_ARGUMENT) // Space ends argument
+                {
+                    args.push_back(curarg);
+                    curarg.clear();
+                }
+                state = STATE_EATING_SPACES;
+                break;
+            default: curarg += ch; state = STATE_ARGUMENT;
+            }
+            break;
+        case STATE_SINGLEQUOTED: // Single-quoted string
+            switch(ch)
+            {
+            case '\'': state = STATE_ARGUMENT; break;
+            default: curarg += ch;
+            }
+            break;
+        case STATE_DOUBLEQUOTED: // Double-quoted string
+            switch(ch)
+            {
+            case '"': state = STATE_ARGUMENT; break;
+            case '\\': state = STATE_ESCAPE_DOUBLEQUOTED; break;
+            default: curarg += ch;
+            }
+            break;
+        case STATE_ESCAPE_OUTER: // '\' outside quotes
+            curarg += ch; state = STATE_ARGUMENT;
+            break;
+        case STATE_ESCAPE_DOUBLEQUOTED: // '\' in double-quoted text
+            if(ch != '"' && ch != '\\') curarg += '\\'; // keep '\' for everything but the quote and '\' itself
+            curarg += ch; state = STATE_DOUBLEQUOTED;
+            break;
+        }
+    }
+    switch(state) // final state
+    {
+    case STATE_EATING_SPACES:
+        return true;
+    case STATE_ARGUMENT:
+        args.push_back(curarg);
+        return true;
+    default: // ERROR to end in one of the other states
+        return false;
+    }
+}
+
+
+void OverviewRPCExecutor::request(const QString &command)
+{
+    std::vector<std::string> args;
+
+
+    if(!parseMyCommandLine(args, command.toStdString()))
+    {
+        return;
+    }
+    if(args.empty())
+        return; // Nothing to do
+    try
+    {
+        std::string strPrint;
+        // Convert argument list to JSON objects in method-dependent way,
+        // and pass it along with the method name to the dispatcher.
+        json_spirit::Value result = tableRPC.execute(
+            args[0],
+            RPCConvertValues(args[0], std::vector<std::string>(args.begin() + 1, args.end())));
+
+        // Format result reply
+        if (result.type() == json_spirit::null_type)
+            strPrint = "";
+        else if (result.type() == json_spirit::str_type)
+            strPrint = result.get_str();
+        else
+            strPrint = write_string(result, true);
+
+
+    }
+    catch (json_spirit::Object& objError)
+    {
+        try // Nice formatting for standard-format error
+        {
+            find_value(objError, "code").get_int();
+            std::string message = find_value(objError, "message").get_str();
+
+        }
+        catch(std::runtime_error &) // raised when converting to invalid type, i.e. missing code or message
+        {   // Show raw JSON object
+
+        }
+    }
+    catch (std::exception& e)
+    {
+
+    }
+}
+
+void OverviewPage::startExecutor()
+{
+    QThread *thread = new QThread;
+    OverviewRPCExecutor *executor = new OverviewRPCExecutor();
+    executor->moveToThread(thread);
+
+    // Replies from executor object must go to this object
+//    connect(executor, SIGNAL(reply(int,QString)), this, SLOT(message(int,QString)));
+    // Requests from this object must go to executor
+    connect(this, SIGNAL(cmdRequest(QString)), executor, SLOT(request(QString)));
+
+    // On stopExecutor signal
+    // - queue executor for deletion (in execution thread)
+    // - quit the Qt event loop in the execution thread
+    connect(this, SIGNAL(stopExecutor()), executor, SLOT(deleteLater()));
+    connect(this, SIGNAL(stopExecutor()), thread, SLOT(quit()));
+    // Queue the thread for deletion (in this thread) when it is finished
+    connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
+
+    // Default implementation of QThread::run() simply spins up an event loop in the thread,
+    // which is what we want.
+    thread->start();
+}
+
+
+
+void OverviewPage::on_miningButton_clicked()
+{
+    miningRun = !miningRun;
+    QString cmd;
+    if(miningRun){
+        cmd = QString("setgenerate true");
+        ui->miningButton->setText("Stop Mining");
+         ui->miningButton->setStyleSheet("background-color:red;color:white");
+    } else {
+        cmd = QString("setgenerate false");
+        ui->miningButton->setText("Start Mining");
+        ui->miningButton->setStyleSheet("background-color:rgb(0, 170, 0);color:white");
+    }
+
+    emit cmdRequest(cmd);
 }

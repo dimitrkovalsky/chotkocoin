@@ -291,12 +291,16 @@
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="miningButton">
          <property name="toolTip">
-          <string>use console</string>
+          <string>Run CPU mining</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 170, 0);color:white
+</string>
          </property>
          <property name="text">
-          <string>Run Mining</string>
+          <string>Start Mining</string>
          </property>
         </widget>
        </item>
